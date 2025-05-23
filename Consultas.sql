@@ -21,6 +21,7 @@ SELECT
 FROM empleados;
 
 
+-- Consulta completa 
 SELECT
   CONCAT(nombre, ' ', apellido) AS nombre_completo,
   LENGTH(CONCAT(nombre, apellido)) AS longitud_nombre,
